@@ -1,0 +1,16 @@
+time complexity != time taken
+
+rate at which time taken increases with respect to input size.
+
+take times in term of O notation -> O(time taken)
+
+Rules:
+
+to consider in worst case scenerio
+avoid constant
+avoid lower value
+
+big oh                      theta                     omega
+upper best                  average                   lowest
+
+auxiliary space => space take to solve problem
