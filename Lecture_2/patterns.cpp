@@ -5,7 +5,7 @@ int main(){
     int row, col;
     cout<<"Enter row: ";
     cin>>row;
-    cout<<"\n Enter col: ";
+    cout<<"Enter col: ";
     cin>>col;
     cout<<"\n";
 
@@ -15,4 +15,5 @@ int main(){
         }
         cout<<"\n";
     }
+    return 0;
 }
