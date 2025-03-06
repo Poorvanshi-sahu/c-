@@ -151,6 +151,7 @@ void explainStack(){
 
 
 
+
 // fifo
 void explainQueue(){
     queue<int> q;
@@ -253,40 +254,70 @@ void explainUs(){
 
 void explainMap(){
     // { key,value } stores unique keys in sorted order
-    map<int, int> mpp;
+    // map<int, int> mpp;
 
-    mpp[1]=2;
+    // mpp[1]=2;
 
-    mpp.emplace({3,1})
+    // mpp.emplace({3,1})
 
-    mpp.insert({2,4});
+    // mpp.insert({2,4});
 
-    map<pair<int, int>, int> mpp3;    
+    // map<pair<int, int>, int> mpp3;    
 
-    mpp2({2,3})  = 10;
+    // mpp2({2,3})  = 10;
     
-    map<int, pair<int, int>> mpp2;
+    // map<int, pair<int, int>> mpp2;
 
-    mpp2[4] = {5,6};
+    // mpp2[4] = {5,6};
 
-    auto it = mpp.find(1);
+    // auto it = mpp.find(1);
     
-    cout<<*it<<endl;
+    // cout<<*it<<endl;
     
 }
 
 
 // multimap
+
+// extra
+void explainExtra(){
+    
+    // for array
+//     sort(a, a+n);
+
+//    // specific portion in array
+//    sort(a+2, a+4);
+
+//    // sort in descending order
+//    sort(a, a+n, greater<int>);    
+
+//     // for vector
+//     sort(v.begin(), v.endl());
+
+    // set bits no
+    // int num = __builtin_popcount();
+
+    // permutation
+    string s = "123";
+    next_permutation(s.begin(), s.end());
+
+    *max_element(a, a+n);
+}
+
 // unorderedmap
 int main(){
 
     // explainPair();
     // explainVector();
     // explainList();
-    explainPQ();
+    // explainPQ();
+    // explainExtra();
+
+
     cout<<"\n\n\n";
     return 0;
 }
+
 
 
 // Algorithms
