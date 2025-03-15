@@ -7,6 +7,7 @@ int main(){
 
     int n;
     cin>>n;
+    //prefernce is unordered_map
     map<int, int> m;
     int arr[n];
 
@@ -36,3 +37,4 @@ int main(){
     cout<<"\n\n\n";
     return 0;
 }
+
